@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>GIT Introduction</title>
+
+		<meta name="description" content="An introduction to GIT">
+		<meta name="author" content="Oren Hollander">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<h1>Version Control</h1>
+					<h2>Motivation</h2>
+					<p>
+						<small>Created by Oren Hollander</small>
+					</p>
+				</section>
+                <section>
+                    <h1>Getting a Git Repository</h1>
+                </section>
+                <section>
+                    <h1>Initializing a Repository in an Existing Directory</h1>
+                    <h3>git init, git add, git commit</h3>
+                </section>
+                <section>
+                    <h1>Cloning an Existing Repository</h1>
+                    <h3>clone</h3>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Recording Changes to the Repository</h1>
+                </section>
+                <section>
+                    <h1>Checking the Status of Your Files</h1>
+                    <h3>git status</h3>
+                </section>
+                <section>
+                    <h1>Tracking New Files</h1>
+                    <h3>git add</h3>
+                </section>
+                <section>
+                    <h1>Staging Modified Files</h1>
+                    <h3>git add, git status</h3>
+                </section>
+                <section>
+                    <h1>Ignoring Files</h1>
+                    <h3>.gitignore</h3>
+                </section>
+                <section>
+                    <h1>Viewing Your Staged and Unstaged Changes</h1>
+                    <h3>git status, git diff</h3>
+                </section>
+                <section>
+                    <h1>Committing Your Changes</h1>
+                    <h3>git commit</h3>
+                </section>
+                <section>
+                    <h1>Skipping the Staging Area</h1>
+                    <h3>git commit -a</h3>
+                </section>
+                <section>
+                    <h1>Removing Files</h1>
+                    <h3>git rm</h3>
+                </section>
+                <section>
+                    <h1>Moving Files</h1>
+                    <h3>git mv</h3>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Viewing the Commit History</h1>
+                    <h3>git log</h3>
+                </section>
+
+                <section>
+                    <h1>Undoing Things</h1>
+                </section>
+
+                <section>
+                    <h1>Amending</h1>
+                    <h3>git commit --amend</h3>
+                </section>
+                <section>
+                    <h1>Unstaging a Staged File</h1>
+                    <h3>git reset</h3>
+                </section>
+                <section>
+                    <h1>Unmodifying a Modified File</h1>
+                    <h3>git checkout</h3>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Working with Remotes</h1>
+                    <h3>git remote</h3>
+                </section>
+                <section>
+                    <h1>Showing Your Remotes</h1>
+                    <h3></h3>
+                </section>
+                <section>
+                    <h1>Adding Remote Repositories</h1>
+                    <h3>git remote add</h3>
+                </section>
+                <section>
+                    <h1>Fetching and Pulling from Your Remotes</h1>
+                    <h3>git fetch, git pull</h3>
+                </section>
+                <section>
+                    <h1>Pushing to Your Remotes</h1>
+                    <h3>git push</h3>
+                </section>
+                <section>
+                    <h1>Inspecting a Remote</h1>
+                    <h3>git remote show</h3>
+                </section>
+                <section>
+                    <h1>Removing and Renaming Remotes</h1>
+                    <h3>git remote rename, git remote rm</h3>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Tagging</h1>
+                    <h3>git tag</h3>
+                </section>
+                <section>
+                    <h1>Listing Your Tags</h1>
+                    <h3>git tag</h3>
+                </section>
+                <section>
+                    <h1>Creating Tags</h1>
+                    <section>
+                        <h1>Lightweight Tags</h1>
+                        <h3>git tag</h3>
+                    </section>
+                    <section>
+                        <h1>Annotated Tags</h1>
+                        <h3>git tag -a</h3>
+                    </section>
+                </section>
+                <section>
+                    <h1>Tagging Later</h1>
+                </section>
+                <section>
+                    <h1>Sharing Tags</h1>
+                </section>
+                <section>
+                    <h1>Checking out Tags</h1>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Branching and Merging</h1>
+                </section>
+
+                <section>
+                    <h1>Overview</h1>
+                </section>
+                <section>
+                    <h1>Creating a New Branch</h1>
+                    <h3>git branch</h3>
+                </section>
+                <section>
+                    <h1>Switching Branches</h1>
+                    <h3>git checkout</h3>
+                </section>
+                <section>
+                    <h1>Basic Branching</h1>
+                    <h3>git branch, git checkout</h3>
+                </section>
+                <section>
+                    <h1>Basic Merging</h1>
+                    <h3>git merge, git checkout</h3>
+                </section>
+                <section>
+                    <h1>Basic Merge Conflicts</h1>
+                    <h3>git status</h3>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Remote Branches</h1>
+                </section>
+                <section>
+                    <h1>Pushing</h1>
+                </section>
+                <section>
+                    <h1>Tracking Branches</h1>
+                </section>
+                <section>
+                    <h1>Pulling</h1>
+                </section>
+                <section>
+                    <h1>Deleting Remote Branches</h1>
+                </section>
+
+                <!-- #################################################################### -->
+
+                <section>
+                    <h1>Rebasing</h1>
+                    <h3>git rebase</h3>
+                </section>
+                <section>
+                    <h1></h1>
+                    <h3></h3>
+                </section>
+                <section>
+                    <h1></h1>
+                    <h3></h3>
+                </section>
+                <section>
+                    <h1></h1>
+                    <h3></h3>
+                </section>
+                <section>
+                    <h1></h1>
+                    <h3></h3>
+                </section>
+
+            </div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
